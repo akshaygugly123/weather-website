@@ -6,6 +6,9 @@ const forecast = require('./utils/forecast')
 
 const app = express()
 const port = process.env.PORT || 3000
+const weatherApiKey = ''
+const mapboxApiKey = ''
+
 
 // define path for express config
 const publicDirectoryPath = path.join(__dirname, '../public')
